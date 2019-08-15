@@ -1,0 +1,36 @@
+{
+  "test01_add_emp": {
+    "desc": "添加员工",
+    "username": "tom997",
+    "mobile": "13012340997",
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "test02_query_emp": {
+    "desc": "查询员工",
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "test03_update_emp": {
+    "desc": "修改员工",
+    "username": "tom999-new",
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "test04_delete_emp": {
+    "desc": "删除员工",
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  }
+}
+
+
+
