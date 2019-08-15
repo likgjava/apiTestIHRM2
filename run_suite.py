@@ -25,3 +25,5 @@ with open(report_path, "wb") as f:
 
     # 执行测试套件
     runner.run(suite)
+
+    print("over...")
