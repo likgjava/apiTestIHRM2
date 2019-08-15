@@ -15,7 +15,8 @@ suite.addTest(unittest.makeSuite(TestEmployee))
 # unittest.TextTestRunner().run(suite)
 
 # 定义测试报告文件路径
-report_path = app.BASE_DIR + "/report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+# report_path = app.BASE_DIR + "/report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+report_path = app.BASE_DIR + "/report/report.html"
 
 # 打开文件流
 with open(report_path, "wb") as f:
