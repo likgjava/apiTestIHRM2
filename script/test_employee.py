@@ -1,5 +1,7 @@
 import unittest
 
+import pymysql as pymysql
+
 from api.employee import EmployeeApi
 import logging
 import utils
@@ -124,6 +126,17 @@ class TestEmployee(unittest.TestCase):
 
         # 断言
         utils.common_assert(self, response, status_code, success, code, message)
+
+        # 数据库数据校验
+        conn = pymysql.connect("182.92.81.159", "readuser", "iHRM_user_2019", "ihrm")
+        cursor = conn.cursor()
+        sql = "select username from bs_user where id=%s"
+        cursor.execute(sql, emp_id)
+        data = cursor.fetchone()
+        db_username = data[0]
+        cursor.close()
+        conn.close()
+        self.assertEqual(username, db_username)
 
     # 删除员工
     @parameterized.expand(build_delete_emp_data)
