@@ -1,188 +1,70 @@
-2019-08-14 10:15:25,375 INFO [root] [__init__.py(<module>:8)] - test....
-2019-08-14 10:42:13,414 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 10:42:13,463 INFO [root] [test_login.py(test_login_success:21)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b6b12e34-27fd-4747-a802-a2f999a872ce'}
-2019-08-14 10:47:40,997 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 10:47:41,049 INFO [root] [test_login.py(test_login_username_is_not_exist:37)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 10:54:14,693 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 10:54:14,731 INFO [root] [test_login.py(test_login_pwd_is_error:53)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:04:19,073 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 11:04:19,118 INFO [root] [test_login.py(test_login_success:22)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '24df8d6b-2831-4093-9b1c-a86294d16925'}
-2019-08-14 11:04:34,939 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 11:04:34,985 INFO [root] [test_login.py(test_login_success:22)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c064ad8a-6315-4337-8439-cefe39ed657f'}
-2019-08-14 11:05:20,635 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 11:05:20,712 INFO [root] [test_login.py(test_login_username_is_not_exist:41)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:06:10,043 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 11:06:10,080 INFO [root] [test_login.py(test_login_pwd_is_error:59)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:06:21,278 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 11:06:21,315 INFO [root] [test_login.py(test_login_pwd_is_error:59)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:16:55,593 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 11:16:55,640 INFO [root] [test_login.py(test_login_pwd_is_error:59)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:23:02,648 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 11:23:02,687 INFO [root] [test_login.py(test_login_req_param_is_null:77)] - login response data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 11:26:51,945 INFO [root] [login.py(login:12)] - param mobile= password=123456
-2019-08-14 11:26:51,986 INFO [root] [test_login.py(test_login_username_is_empty:90)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:29:30,836 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=
-2019-08-14 11:29:30,878 INFO [root] [test_login.py(test_login_pwd_is_empty:103)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:29:52,041 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=
-2019-08-14 11:29:52,087 INFO [root] [test_login.py(test_login_pwd_is_empty:103)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:29:52,088 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 11:29:52,117 INFO [root] [test_login.py(test_login_pwd_is_error:59)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:29:52,118 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 11:29:52,143 INFO [root] [test_login.py(test_login_req_param_is_null:77)] - login response data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 11:29:52,143 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 11:29:52,195 INFO [root] [test_login.py(test_login_success:22)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '7d58776f-9d52-4975-9b67-70b0eb90e89a'}
-2019-08-14 11:29:52,196 INFO [root] [login.py(login:12)] - param mobile= password=123456
-2019-08-14 11:29:52,224 INFO [root] [test_login.py(test_login_username_is_empty:90)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 11:29:52,225 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 11:29:52,253 INFO [root] [test_login.py(test_login_username_is_not_exist:41)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 12:08:33,582 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 12:08:33,665 INFO [root] [test_login.py(test_login_success:23)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '764a6c9a-e07e-4654-98df-1279220425e2'}
-2019-08-14 12:09:58,816 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 12:09:58,889 INFO [root] [test_login.py(test_login_success:23)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '2e4ea950-0766-4d7d-8309-bb635ffaaf76'}
-2019-08-14 12:09:58,889 INFO [root] [test_login.py(test_login_success:37)] - token=Bearer 2e4ea950-0766-4d7d-8309-bb635ffaaf76
-2019-08-14 12:09:58,890 INFO [root] [test_login.py(test_login_success:38)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer 2e4ea950-0766-4d7d-8309-bb635ffaaf76'}
-2019-08-14 12:28:18,458 INFO [root] [test_employee.py(test_add_emp:24)] - add emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 12:28:46,143 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 12:28:46,204 INFO [root] [test_login.py(test_login_success:23)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '34f2de2d-abf4-4fae-a355-03e21e874a09'}
-2019-08-14 12:28:46,205 INFO [root] [test_login.py(test_login_success:37)] - token=Bearer 34f2de2d-abf4-4fae-a355-03e21e874a09
-2019-08-14 12:28:46,205 INFO [root] [test_login.py(test_login_success:38)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer 34f2de2d-abf4-4fae-a355-03e21e874a09'}
-2019-08-14 12:29:07,672 INFO [root] [test_employee.py(test_add_emp:24)] - add emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 12:29:43,783 INFO [root] [test_employee.py(test_add_emp:24)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161494952529903616'}}
-2019-08-14 12:40:30,367 INFO [root] [test_employee.py(test_query_emp:40)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161494952529903616', 'mobile': '13012340999', 'username': 'tom999', 'password': 'b5d68353dec352dadf1f35e0708e5d42', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
-2019-08-14 12:51:21,093 INFO [root] [test_employee.py(test_update_emp:54)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161494952529903616'}}
-2019-08-14 12:51:43,068 INFO [root] [test_employee.py(test_query_emp:40)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161494952529903616', 'mobile': '13012340999', 'username': 'tom999-new', 'password': None, 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
-2019-08-14 12:59:08,212 INFO [root] [test_employee.py(test_delete_emp:67)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
-2019-08-14 12:59:21,022 INFO [root] [test_employee.py(test_query_emp:40)] - query emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 13:01:29,760 INFO [root] [test_employee.py(test_add_emp:24)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161502946843967488'}}
-2019-08-14 13:01:29,803 INFO [root] [test_employee.py(test_delete_emp:67)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
-2019-08-14 13:01:29,834 INFO [root] [test_employee.py(test_query_emp:40)] - query emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 13:01:29,873 INFO [root] [test_employee.py(test_update_emp:54)] - update emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 13:02:25,644 INFO [root] [test_employee.py(test_add_emp:24)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161503181259423744'}}
-2019-08-14 13:02:25,682 INFO [root] [test_employee.py(test_delete_emp:67)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
-2019-08-14 13:02:25,709 INFO [root] [test_employee.py(test_query_emp:40)] - query emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 13:02:25,745 INFO [root] [test_employee.py(test_update_emp:54)] - update emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 13:04:00,417 INFO [root] [test_employee.py(test01_add_emp:24)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161503578678116352'}}
-2019-08-14 13:04:00,478 INFO [root] [test_employee.py(test02_query_emp:40)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161503578678116352', 'mobile': '13012340999', 'username': 'tom999', 'password': 'b5d68353dec352dadf1f35e0708e5d42', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
-2019-08-14 13:04:00,526 INFO [root] [test_employee.py(test03_update_emp:54)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161503578678116352'}}
-2019-08-14 13:04:00,610 INFO [root] [test_employee.py(test04_delete_emp:67)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
-2019-08-14 13:07:41,027 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 13:07:41,078 INFO [root] [test_login.py(test_login_success:23)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd763e7e0-5dcb-4c95-bdeb-6b37f0bb703f'}
-2019-08-14 13:07:41,078 INFO [root] [test_login.py(test_login_success:37)] - token=Bearer d763e7e0-5dcb-4c95-bdeb-6b37f0bb703f
-2019-08-14 13:07:41,078 INFO [root] [test_login.py(test_login_success:38)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer d763e7e0-5dcb-4c95-bdeb-6b37f0bb703f'}
-2019-08-14 13:07:41,114 INFO [root] [test_employee.py(test01_add_emp:24)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161504504444895232'}}
-2019-08-14 13:07:41,166 INFO [root] [test_employee.py(test02_query_emp:40)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161504504444895232', 'mobile': '13012340999', 'username': 'tom999', 'password': 'b5d68353dec352dadf1f35e0708e5d42', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
-2019-08-14 13:07:41,205 INFO [root] [test_employee.py(test03_update_emp:54)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161504504444895232'}}
-2019-08-14 13:07:41,249 INFO [root] [test_employee.py(test04_delete_emp:67)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
-2019-08-14 14:55:39,867 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功'), ('13888889999', '123456', 200, False, 20001, '用户名或密码错误'), ('13800000002', 'error', 200, False, 20001, '用户名或密码错误')]
-2019-08-14 14:55:39,871 INFO [root] [test_login.py(test_login:41)] - test_login param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
-2019-08-14 14:55:39,871 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 14:55:39,910 INFO [root] [test_login.py(test_login:48)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '788445d8-9817-4213-9637-0d840db37c8d'}
-2019-08-14 14:55:39,910 INFO [root] [test_login.py(test_login:63)] - token=Bearer 788445d8-9817-4213-9637-0d840db37c8d
-2019-08-14 14:55:39,910 INFO [root] [test_login.py(test_login:64)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer 788445d8-9817-4213-9637-0d840db37c8d'}
-2019-08-14 14:55:39,911 INFO [root] [test_login.py(test_login:41)] - test_login param mobile=13888889999 password=123456 status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 14:55:39,911 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 14:55:39,942 INFO [root] [test_login.py(test_login:48)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 14:55:39,943 INFO [root] [test_login.py(test_login:41)] - test_login param mobile=13800000002 password=error status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 14:55:39,943 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 14:55:39,975 INFO [root] [test_login.py(test_login:48)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 14:59:10,488 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功'), ('13888889999', '123456', 200, False, 20001, '用户名或密码错误'), ('13800000002', 'error', 200, False, 20001, '用户名或密码错误'), (None, None, 200, False, 99999, '系统繁忙')]
-2019-08-14 14:59:10,492 INFO [root] [test_login.py(test_login:41)] - test_login param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
-2019-08-14 14:59:10,492 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 14:59:10,535 INFO [root] [test_login.py(test_login:48)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0b7c5fab-10e2-4669-9ae8-5ffa47826aa7'}
-2019-08-14 14:59:10,535 INFO [root] [test_login.py(test_login:63)] - token=Bearer 0b7c5fab-10e2-4669-9ae8-5ffa47826aa7
-2019-08-14 14:59:10,535 INFO [root] [test_login.py(test_login:64)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer 0b7c5fab-10e2-4669-9ae8-5ffa47826aa7'}
-2019-08-14 14:59:10,535 INFO [root] [test_login.py(test_login:41)] - test_login param mobile=13888889999 password=123456 status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 14:59:10,536 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 14:59:10,577 INFO [root] [test_login.py(test_login:48)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 14:59:10,577 INFO [root] [test_login.py(test_login:41)] - test_login param mobile=13800000002 password=error status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 14:59:10,577 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 14:59:10,610 INFO [root] [test_login.py(test_login:48)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 14:59:10,611 INFO [root] [test_login.py(test_login:41)] - test_login param mobile=None password=None status_code=200 success=False code=99999 message=系统繁忙
-2019-08-14 14:59:10,611 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 14:59:10,636 INFO [root] [test_login.py(test_login:48)] - login response data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 15:02:35,326 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功'), ('13888889999', '123456', 200, False, 20001, '用户名或密码错误'), ('13800000002', 'error', 200, False, 20001, '用户名或密码错误'), (None, None, 200, False, 99999, '系统繁忙')]
-2019-08-14 15:02:53,489 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功'), ('13888889999', '123456', 200, False, 20001, '用户名或密码错误'), ('13800000002', 'error', 200, False, 20001, '用户名或密码错误'), (None, None, 200, False, 99999, '系统繁忙')]
-2019-08-14 15:02:53,492 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
-2019-08-14 15:02:53,492 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 15:02:53,544 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6829e92c-7325-45ed-b21a-7c88baa7cfe9'}
-2019-08-14 15:02:53,544 INFO [root] [test_login.py(test_login:61)] - token=Bearer 6829e92c-7325-45ed-b21a-7c88baa7cfe9
-2019-08-14 15:02:53,544 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer 6829e92c-7325-45ed-b21a-7c88baa7cfe9'}
-2019-08-14 15:02:53,545 INFO [root] [test_login.py(test_login:39)] - param mobile=13888889999 password=123456 status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:02:53,545 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 15:02:53,578 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:02:53,579 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=error status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:02:53,579 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 15:02:53,609 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:02:53,610 INFO [root] [test_login.py(test_login:39)] - param mobile=None password=None status_code=200 success=False code=99999 message=系统繁忙
-2019-08-14 15:02:53,610 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 15:02:53,633 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 15:04:00,224 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功'), ('13888889999', '123456', 200, False, 20001, '用户名或密码错误'), ('13800000002', 'error', 200, False, 20001, '用户名或密码错误'), (None, None, 200, False, 99999, '系统繁忙')]
-2019-08-14 15:04:00,227 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
-2019-08-14 15:04:00,228 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 15:04:00,275 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'afd7df26-2690-4d2f-8e08-4d0cb22b15da'}
-2019-08-14 15:04:00,276 INFO [root] [test_login.py(test_login:61)] - token=Bearer afd7df26-2690-4d2f-8e08-4d0cb22b15da
-2019-08-14 15:04:00,276 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer afd7df26-2690-4d2f-8e08-4d0cb22b15da'}
-2019-08-14 15:04:00,276 INFO [root] [test_login.py(test_login:39)] - param mobile=13888889999 password=123456 status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:04:00,276 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 15:04:00,310 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:04:00,311 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=error status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:04:00,311 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 15:04:00,340 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:04:00,341 INFO [root] [test_login.py(test_login:39)] - param mobile=None password=None status_code=200 success=False code=99999 message=系统繁忙
-2019-08-14 15:04:00,341 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 15:04:00,366 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 15:35:15,986 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom999', '13012340999', 200, True, 10000, '操作成功')]
-2019-08-14 15:36:08,721 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom999', '13012340999', 200, True, 10000, '操作成功')]
-2019-08-14 15:38:19,731 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom999', '13012340999', 200, True, 10000, '操作成功')]
-2019-08-14 15:39:05,806 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功'), ('13888889999', '123456', 200, False, 20001, '用户名或密码错误'), ('13800000002', 'error', 200, False, 20001, '用户名或密码错误'), (None, None, 200, False, 99999, '系统繁忙')]
-2019-08-14 15:39:05,810 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
-2019-08-14 15:39:05,810 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 15:39:05,853 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a3ef5095-4798-4f70-90ab-2b3de4a9a6ae'}
-2019-08-14 15:39:05,853 INFO [root] [test_login.py(test_login:61)] - token=Bearer a3ef5095-4798-4f70-90ab-2b3de4a9a6ae
-2019-08-14 15:39:05,853 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer a3ef5095-4798-4f70-90ab-2b3de4a9a6ae'}
-2019-08-14 15:39:05,854 INFO [root] [test_login.py(test_login:39)] - param mobile=13888889999 password=123456 status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:39:05,854 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 15:39:05,874 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:39:05,874 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=error status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:39:05,874 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 15:39:05,899 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:39:05,900 INFO [root] [test_login.py(test_login:39)] - param mobile=None password=None status_code=200 success=False code=99999 message=系统繁忙
-2019-08-14 15:39:05,900 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 15:39:05,916 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 15:39:37,405 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom999', '13012340999', 200, True, 10000, '操作成功')]
-2019-08-14 15:39:37,473 INFO [root] [test_employee.py(test01_add_emp:45)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161542738965184512'}}
-2019-08-14 15:40:01,989 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom999', '13012340999', 200, True, 10000, '操作成功')]
-2019-08-14 15:40:02,037 INFO [root] [test_employee.py(test01_add_emp:45)] - add emp data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 15:40:33,517 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom998', '13012340998', 200, True, 10000, '操作成功')]
-2019-08-14 15:40:33,594 INFO [root] [test_employee.py(test01_add_emp:45)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161542974378885120'}}
-2019-08-14 15:45:44,142 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom997', '13012340997', 200, True, 10000, '操作成功')]
-2019-08-14 15:45:44,151 INFO [root] [test_employee.py(build_query_emp_data:39)] - build_query_emp_data=[(200, True, 10000, '操作成功')]
-2019-08-14 15:45:44,165 INFO [root] [test_employee.py(build_update_emp_data:55)] - build_update_emp_data=[('tom999-new', 200, True, 10000, '操作成功')]
-2019-08-14 15:45:44,175 INFO [root] [test_employee.py(build_delete_emp_data:70)] - build_delete_emp_data=[(200, True, 10000, '操作成功')]
-2019-08-14 15:45:44,222 INFO [root] [test_employee.py(test01_add_emp:91)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161544277268119552'}}
-2019-08-14 15:45:44,252 INFO [root] [test_employee.py(test02_query_emp:108)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161544277268119552', 'mobile': '13012340997', 'username': 'tom997', 'password': 'cceab0676970218192422aed32d99a90', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
-2019-08-14 15:45:44,285 INFO [root] [test_employee.py(test03_update_emp:123)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161544277268119552'}}
-2019-08-14 15:45:44,314 INFO [root] [test_employee.py(test04_delete_emp:137)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
-2019-08-14 15:54:52,691 INFO [root] [test_employee.py(build_add_emp_data:24)] - build_add_emp_data=[('tom997', '13012340997', 200, True, 10000, '操作成功')]
-2019-08-14 15:54:52,697 INFO [root] [test_employee.py(build_query_emp_data:39)] - build_query_emp_data=[(200, True, 10000, '操作成功')]
-2019-08-14 15:54:52,703 INFO [root] [test_employee.py(build_update_emp_data:55)] - build_update_emp_data=[('tom999-new', 200, True, 10000, '操作成功')]
-2019-08-14 15:54:52,708 INFO [root] [test_employee.py(build_delete_emp_data:70)] - build_delete_emp_data=[(200, True, 10000, '操作成功')]
-2019-08-14 15:54:52,718 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功'), ('13888889999', '123456', 200, False, 20001, '用户名或密码错误'), ('13800000002', 'error', 200, False, 20001, '用户名或密码错误'), (None, None, 200, False, 99999, '系统繁忙')]
-2019-08-14 15:54:52,759 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
-2019-08-14 15:54:52,759 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
-2019-08-14 15:54:52,803 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b9b585ad-7fa5-40f6-925c-5dd56e2dcd48'}
-2019-08-14 15:54:52,803 INFO [root] [test_login.py(test_login:61)] - token=Bearer b9b585ad-7fa5-40f6-925c-5dd56e2dcd48
-2019-08-14 15:54:52,803 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer b9b585ad-7fa5-40f6-925c-5dd56e2dcd48'}
-2019-08-14 15:54:52,804 INFO [root] [test_login.py(test_login:39)] - param mobile=13888889999 password=123456 status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:54:52,804 INFO [root] [login.py(login:12)] - param mobile=13888889999 password=123456
-2019-08-14 15:54:52,853 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:54:52,854 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=error status_code=200 success=False code=20001 message=用户名或密码错误
-2019-08-14 15:54:52,854 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=error
-2019-08-14 15:54:52,886 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2019-08-14 15:54:52,887 INFO [root] [test_login.py(test_login:39)] - param mobile=None password=None status_code=200 success=False code=99999 message=系统繁忙
-2019-08-14 15:54:52,887 INFO [root] [login.py(login:12)] - param mobile=None password=None
-2019-08-14 15:54:52,935 INFO [root] [test_login.py(test_login:46)] - login response data={'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2019-08-14 15:54:52,975 INFO [root] [test_employee.py(test01_add_emp:91)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161546578896633856'}}
-2019-08-14 15:54:53,024 INFO [root] [test_employee.py(test02_query_emp:108)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161546578896633856', 'mobile': '13012340997', 'username': 'tom997', 'password': 'cceab0676970218192422aed32d99a90', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
-2019-08-14 15:54:53,061 INFO [root] [test_employee.py(test03_update_emp:123)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1161546578896633856'}}
-2019-08-14 15:54:53,106 INFO [root] [test_employee.py(test04_delete_emp:137)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-10-24 22:18:08,709 INFO [root] [test_employee.py(build_add_emp_data:26)] - build_add_emp_data=[('tom997', '13012340997', 200, True, 10000, '操作成功')]
+2019-10-24 22:18:08,718 INFO [root] [test_employee.py(build_query_emp_data:41)] - build_query_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:18:08,725 INFO [root] [test_employee.py(build_update_emp_data:57)] - build_update_emp_data=[('tom999-new', 200, True, 10000, '操作成功')]
+2019-10-24 22:18:08,731 INFO [root] [test_employee.py(build_delete_emp_data:72)] - build_delete_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:18:08,746 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功')]
+2019-10-24 22:18:08,781 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
+2019-10-24 22:18:08,781 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
+2019-10-24 22:18:08,848 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9410cb7b-9bfd-4a0b-b9d3-9679c8c94765'}
+2019-10-24 22:18:08,848 INFO [root] [test_login.py(test_login:61)] - token=Bearer 9410cb7b-9bfd-4a0b-b9d3-9679c8c94765
+2019-10-24 22:18:08,848 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer 9410cb7b-9bfd-4a0b-b9d3-9679c8c94765'}
+2019-10-24 22:18:08,993 INFO [root] [test_employee.py(test01_add_emp:93)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187372711005212672'}}
+2019-10-24 22:18:09,021 INFO [root] [test_employee.py(test02_query_emp:110)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187372711005212672', 'mobile': '13012340997', 'username': 'tom997', 'password': 'cceab0676970218192422aed32d99a90', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-10-24 22:18:09,059 INFO [root] [test_employee.py(test03_update_emp:125)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187372711005212672'}}
+2019-10-24 22:18:11,389 INFO [root] [test_employee.py(test04_delete_emp:149)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-10-24 22:19:05,512 INFO [root] [test_employee.py(build_add_emp_data:26)] - build_add_emp_data=[('tom997', '13012340997', 200, True, 10000, '操作成功')]
+2019-10-24 22:19:05,518 INFO [root] [test_employee.py(build_query_emp_data:41)] - build_query_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:19:05,524 INFO [root] [test_employee.py(build_update_emp_data:57)] - build_update_emp_data=[('tom999-new', 200, True, 10000, '操作成功')]
+2019-10-24 22:19:05,530 INFO [root] [test_employee.py(build_delete_emp_data:72)] - build_delete_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:19:05,538 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功')]
+2019-10-24 22:19:05,544 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
+2019-10-24 22:19:05,544 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
+2019-10-24 22:19:05,576 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9beb3ad0-4557-47c2-9cbe-c3138ababcfa'}
+2019-10-24 22:19:05,576 INFO [root] [test_login.py(test_login:61)] - token=Bearer 9beb3ad0-4557-47c2-9cbe-c3138ababcfa
+2019-10-24 22:19:05,577 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer 9beb3ad0-4557-47c2-9cbe-c3138ababcfa'}
+2019-10-24 22:19:05,601 INFO [root] [test_employee.py(test01_add_emp:93)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187372948906135552'}}
+2019-10-24 22:19:05,622 INFO [root] [test_employee.py(test02_query_emp:110)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187372948906135552', 'mobile': '13012340997', 'username': 'tom997', 'password': 'cceab0676970218192422aed32d99a90', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-10-24 22:19:05,645 INFO [root] [test_employee.py(test03_update_emp:125)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187372948906135552'}}
+2019-10-24 22:19:07,706 INFO [root] [test_employee.py(test04_delete_emp:149)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-10-24 22:21:01,997 INFO [root] [test_employee.py(build_add_emp_data:26)] - build_add_emp_data=[('tom997', '13012340997', 200, True, 10000, '操作成功')]
+2019-10-24 22:21:02,025 INFO [root] [test_employee.py(build_query_emp_data:41)] - build_query_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:21:02,031 INFO [root] [test_employee.py(build_update_emp_data:57)] - build_update_emp_data=[('tom999-new', 200, True, 10000, '操作成功')]
+2019-10-24 22:21:02,038 INFO [root] [test_employee.py(build_delete_emp_data:72)] - build_delete_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:21:02,047 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功')]
+2019-10-24 22:21:02,052 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
+2019-10-24 22:21:02,053 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
+2019-10-24 22:21:02,095 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f8ee0e83-cc4c-48c2-ac3e-fc3762ff2860'}
+2019-10-24 22:21:02,095 INFO [root] [test_login.py(test_login:61)] - token=Bearer f8ee0e83-cc4c-48c2-ac3e-fc3762ff2860
+2019-10-24 22:21:02,096 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer f8ee0e83-cc4c-48c2-ac3e-fc3762ff2860'}
+2019-10-24 22:21:02,127 INFO [root] [test_employee.py(test01_add_emp:93)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187373437639020544'}}
+2019-10-24 22:21:02,155 INFO [root] [test_employee.py(test02_query_emp:110)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187373437639020544', 'mobile': '13012340997', 'username': 'tom997', 'password': 'cceab0676970218192422aed32d99a90', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-10-24 22:21:02,179 INFO [root] [test_employee.py(test03_update_emp:125)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187373437639020544'}}
+2019-10-24 22:21:02,239 INFO [root] [test_employee.py(test04_delete_emp:149)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-10-24 22:21:28,359 INFO [root] [test_employee.py(build_add_emp_data:26)] - build_add_emp_data=[('tom997', '13012340997', 200, True, 10000, '操作成功')]
+2019-10-24 22:21:28,365 INFO [root] [test_employee.py(build_query_emp_data:41)] - build_query_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:21:28,371 INFO [root] [test_employee.py(build_update_emp_data:57)] - build_update_emp_data=[('tom999-new', 200, True, 10000, '操作成功')]
+2019-10-24 22:21:28,377 INFO [root] [test_employee.py(build_delete_emp_data:72)] - build_delete_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:21:28,386 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功')]
+2019-10-24 22:21:28,393 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
+2019-10-24 22:21:28,393 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
+2019-10-24 22:21:28,447 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ceae98a1-f173-4261-91b6-de85b09a9060'}
+2019-10-24 22:21:28,448 INFO [root] [test_login.py(test_login:61)] - token=Bearer ceae98a1-f173-4261-91b6-de85b09a9060
+2019-10-24 22:21:28,448 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ceae98a1-f173-4261-91b6-de85b09a9060'}
+2019-10-24 22:21:28,499 INFO [root] [test_employee.py(test01_add_emp:93)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187373548226039808'}}
+2019-10-24 22:21:28,524 INFO [root] [test_employee.py(test02_query_emp:110)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187373548226039808', 'mobile': '13012340997', 'username': 'tom997', 'password': 'cceab0676970218192422aed32d99a90', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-10-24 22:21:28,564 INFO [root] [test_employee.py(test03_update_emp:125)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187373548226039808'}}
+2019-10-24 22:21:28,635 INFO [root] [test_employee.py(test04_delete_emp:149)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-10-24 22:23:43,363 INFO [root] [test_employee.py(build_add_emp_data:26)] - build_add_emp_data=[('tom997', '13012340997', 200, True, 10000, '操作成功')]
+2019-10-24 22:23:43,369 INFO [root] [test_employee.py(build_query_emp_data:41)] - build_query_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:23:43,375 INFO [root] [test_employee.py(build_update_emp_data:57)] - build_update_emp_data=[('tom999-new', 200, True, 10000, '操作成功')]
+2019-10-24 22:23:43,381 INFO [root] [test_employee.py(build_delete_emp_data:72)] - build_delete_emp_data=[(200, True, 10000, '操作成功')]
+2019-10-24 22:23:43,388 INFO [root] [test_login.py(build_data:25)] - test_data=[('13800000002', '123456', 200, True, 10000, '操作成功')]
+2019-10-24 22:23:43,393 INFO [root] [test_login.py(test_login:39)] - param mobile=13800000002 password=123456 status_code=200 success=True code=10000 message=操作成功
+2019-10-24 22:23:43,394 INFO [root] [login.py(login:12)] - param mobile=13800000002 password=123456
+2019-10-24 22:23:43,430 INFO [root] [test_login.py(test_login:46)] - login response data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ccced49d-62fa-4e94-bec0-ec104e6fb79a'}
+2019-10-24 22:23:43,430 INFO [root] [test_login.py(test_login:61)] - token=Bearer ccced49d-62fa-4e94-bec0-ec104e6fb79a
+2019-10-24 22:23:43,430 INFO [root] [test_login.py(test_login:62)] - headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ccced49d-62fa-4e94-bec0-ec104e6fb79a'}
+2019-10-24 22:23:43,454 INFO [root] [test_employee.py(test01_add_emp:93)] - add emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187374114314473472'}}
+2019-10-24 22:23:43,477 INFO [root] [test_employee.py(test02_query_emp:110)] - query emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187374114314473472', 'mobile': '13012340997', 'username': 'tom997', 'password': 'cceab0676970218192422aed32d99a90', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1322131', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-30T00:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2019-10-24 22:23:43,501 INFO [root] [test_employee.py(test03_update_emp:125)] - update emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1187374114314473472'}}
+2019-10-24 22:23:43,576 INFO [root] [test_employee.py(test04_delete_emp:152)] - delete emp data={'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
