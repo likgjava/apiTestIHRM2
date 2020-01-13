@@ -10,13 +10,10 @@ class LoginApi:
 
     def login(self, mobile, password):
         logging.info("param mobile={} password={}".format(mobile, password))
-        data = {}
+        data = None
         if mobile:
             data["mobile"] = mobile
         if password:
             data["password"] = password
 
-        if data:
-            return requests.post(self.login_url, json=data)
-        else:
-            return requests.post(self.login_url)
+        return requests.post(self.login_url, json=data)
