@@ -10,7 +10,7 @@ class LoginApi:
 
     def login(self, mobile, password):
         logging.info("param mobile={} password={}".format(mobile, password))
-        data = None
+        data = {}
         if mobile:
             data["mobile"] = mobile
         if password:

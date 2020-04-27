@@ -7,7 +7,7 @@ print("BASE_DIR=", BASE_DIR)
 
 
 # 项目基本路径
-BASE_URL = "http://182.92.81.159"
+BASE_URL = "http://ihrm-test.itheima.net"
 
 # 用户令牌（token）
 TOKEN = None

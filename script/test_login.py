@@ -62,7 +62,7 @@ class TestLogin(unittest.TestCase):
             logging.info("headers={}".format(app.headers_data))
 
     # 登录成功
-    @unittest.skip("废弃")
+    # @unittest.skip("废弃")
     def test_login_success(self):
         # 定义测试数据
         mobile = "13800000002"
